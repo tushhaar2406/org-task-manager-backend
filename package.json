@@ -2,10 +2,11 @@
   "name": "org-task-manager-backend",
   "version": "1.0.0",
   "description": "A backend system built using Node.js + Express + PostgreSQL for managing organizational tasks, projects, and users. It provides secure authentication, project-based task allocation, real-time updates, and analytical dashboards to track productivity and performance across teams.",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/app.js",
   "scripts": {
-     "start": "node src/app.js",
-     "dev": "nodemon src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
